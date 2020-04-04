@@ -27,31 +27,31 @@ Kernal: Runtime (Distributed Streaming Dataflow
 	 Table(SQL )
 	 Table(SQL using DataStream)
  
- Deploy:
-  Local JVM(Single JVM)
-  Cluster( Standalone,Yarn,Mesos,tez)
-  Cloud (Google GCE,Amazon EC2)
+ # Deploy:
+	  Local JVM(Single JVM)
+	  Cluster( Standalone,Yarn,Mesos,tez)
+	  Cloud (Google GCE,Amazon EC2)
+
+ # Storage:
+	  Local FS
+	  HDFS ,S3
  
- Storage:
-  Local FS
-  HDFS ,S3
+#  DataBase:
+  	 MonoDB,Hbase,SQL,Cassandra,Any File System
  
- DataBase:
-   MonoDB,Hbase,SQL,Cassandra,Any File System
- 
- Streams:
-   RabbitMQ,Kafka,Flume ,MQTT
+ # Streams:
+   	RabbitMQ,Kafka,Flume ,MQTT
    
 
-refer: github flink
-Project: flink-examples
+# Refer: github flink
+``Project: flink-examples
 
 
 
-Port:
-Version:flink-1.2.0
-vi flink-conf.yaml
-  change port number 
+# Port:
+	Version:flink-1.2.0
+	vi flink-conf.yaml
+	  change port number 
   
 # Windows: 
 start-cluster.bat
